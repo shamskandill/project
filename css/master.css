@@ -17,6 +17,7 @@ header{
     position: fixed;
     justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 .logo{
     text-decoration: none;
@@ -48,7 +49,7 @@ section{
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: url(hh.jpeg) no-repeat;
+    background: url(../images/660691.webp) no-repeat;
     background-size: cover;
     color: aliceblue;
     background-attachment: fixed;
@@ -92,6 +93,7 @@ section{
     border-radius: 10px;
     margin-bottom: 30px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .main-btn:hover{
@@ -143,6 +145,7 @@ header{
     padding: 20px;
     margin: 10px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .card:hover{
@@ -190,6 +193,7 @@ header{
     padding: 20px;
     margin: 15px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .cardet:hover{
@@ -236,6 +240,7 @@ header{
     border-radius: 10px;
     margin: 20px;
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
 .courses-card:hover{
@@ -292,4 +297,141 @@ header{
     font-size: 1.1em;
     font-weight: 600;
     padding: 0.3em;
+}
+.login{
+    background: wheat;
+    margin: auto;
+    margin-top: 60px;
+    height: 700px;
+    justify-content: center;
+    display: flex;
+}
+.login-box{
+    background-color: #DEB887;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    color: #000;
+    height: 100%;
+    padding: 60px;
+    border-radius: 10px;
+}
+.login h1{
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 10px;
+}
+.login-box p{
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.login-box input{
+    outline: none;
+    padding: 9px;
+    margin: 9px 0px;
+    border: 1px solid black;
+    background-color: transparent;
+    color: #000;
+    width: 100%;
+    top: 20px;
+
+}
+
+.aa{
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    margin: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    height: 100%;
+    display: block;
+}
+.login-btn{
+    color: #000;
+    background-color:transparent;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 400;;
+    padding: 0.5645em 1.1875em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 2px solid #000;
+    transition: 0.5s ease;
+    display: block;
+    margin: auto;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+.Sign-up{
+    color: #000;
+    background-color:transparent;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.5645em 1.1875em;
+    margin-top: 60px;
+}
+.Sign-up span{
+    color: darkslategray;
+}
+.social-icon{
+    justify-content: center;
+    margin: 5px;
+}
+.social-icon a{
+    color: darkslategray;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.7em;
+    }
+    section{
+        padding: 80px 20px;
+    }
+    .main-content h2{
+        font-size: 1em;
+    }
+    .main-content h3{
+        font-size: 1.5em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:641px){
+    body{
+        font-size: 12px;
+    }
+    .main-content h2{
+        font-size: 0.7em;
+    }
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+@media(max-width:300px){
+    body{
+        font-size: 10px;
+    }
 }
